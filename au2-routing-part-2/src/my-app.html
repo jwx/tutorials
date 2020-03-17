@@ -1,0 +1,23 @@
+<import from="./welcome.html"></import>
+<import from="./about.html"></import>
+<import from="./books"></import>
+<import from="./book-details"></import>
+<import from="./missing"></import>
+<import from="./login"></import>
+<import from="./profile"></import>
+
+<nav>
+    <a goto="welcome">Welcome</a>
+    <a goto="books">Books</a>
+    <a goto="about">About</a>
+    <a if.bind="!auth.user" goto="login" class="login">Login</a>
+    <a if.bind="auth.user" goto="profile" class="user">${auth.user}</a>
+</nav>
+
+<div class="container">
+    <au-viewport name="main" default="welcome" fallback="missing"></au-viewport>
+</div>
+
+<div class="footer">
+    THIS IS THE FOOTER
+</div>
