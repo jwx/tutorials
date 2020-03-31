@@ -1,0 +1,19 @@
+.message {
+  background-color: lightblue;
+}
+
+.world {
+  position: absolute;
+  display: inline-block;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.entity {
+  position: absolute;
+  display: inline-block;
+  border: 1px solid red;
+}
