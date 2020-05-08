@@ -1,0 +1,9 @@
+.message {
+  background-color: lightblue;
+}
+
+.entity {
+  display: inline-block;
+  position: absolute;
+  /* border: 1px solid red; */
+}
