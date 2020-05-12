@@ -1,0 +1,12 @@
+<import from="./client/entity.html"></import>
+<import from="./client/background.html"></import>
+
+<div class="message">${message}</div>
+
+<div class="world" css="
+    width: ${world.context.width}px;
+    height: ${world.context.height}px;
+">
+    <background></background>
+    <entity entity.bind="entity" repeat.for="entity of world.entities"></entity>
+</div>

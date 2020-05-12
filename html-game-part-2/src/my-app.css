@@ -1,0 +1,12 @@
+.message {
+  background-color: lightblue;
+}
+
+.world {
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  border: 1px solid black;
+  overflow: hidden;
+}
